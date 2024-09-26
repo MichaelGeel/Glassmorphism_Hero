@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.container {
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    width: 80%;
+    background-image: url(../images/Country-Side-Wallpaper.jpg);
+
+}
+
+.window {
+    border: 1px solid red;
+    border-radius: inherit;
+    width: 40%;
+    text-align: center;
+}
